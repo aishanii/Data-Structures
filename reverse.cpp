@@ -11,7 +11,7 @@ while (n>0){
     n=n/10;
 }
 
-cout<<rev<<endl;
+cout<<rev<<endl ;
 
     return 0;
 }
