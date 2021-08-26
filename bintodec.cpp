@@ -6,7 +6,7 @@ int binTodec(int n){
     int x=1; //represents powers of 2
 
     while (n>0){
-        int y=n%10;
+        int y=n%10; //last digit
         ans+=x*y;
         x=x*2;
         n=n/10;
