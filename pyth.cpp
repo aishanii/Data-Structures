@@ -4,7 +4,7 @@ using namespace std;
 //to check if 
 //given three numbers
 //are pythagoream triplets
-//or not
+
 
 bool check(int x,int y,int z){
     int a=max(x,max(y,z));
