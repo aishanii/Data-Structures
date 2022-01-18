@@ -63,3 +63,13 @@ Ref video: https://youtu.be/Av7vSnPSCtw
 -increase i by k and compare with largest (we need max of these two: ma)
 -decrease i+k by k and compare with smallest (we need min of these two: mi)
 -result would be minimum of ans and ma-mi
+
+Binary search
+
+-sort array in asc order
+- initialize start=0,end=size
+-mid=start+end/2
+-while start<end, if mid=key, return mid
+-if mid>key, end=mid-1
+-if mid>key, start=mid+1
+
