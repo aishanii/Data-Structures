@@ -109,3 +109,23 @@ Ref video: https://youtu.be/Av7vSnPSCtw
 
 -if mid>key, start=mid+1
 
+
+
+**Count number of pairs with sum k**
+
+Inefficient soln:
+
+-declare count=0
+
+-iterate i from 0 to size, j from i+1 to size
+
+- if arr[i]+arr[j]==k, count++
+
+-return count
+
+Time complexity= O(n^2)
+
+Efficient soln:
+
+Ref video: https://youtu.be/HTG9JFmB03A - O(n)
+
