@@ -13,6 +13,8 @@
 
 -From count0+count1 to size of the array, put 2.
 
+</br>
+
 
 **To find duplicate element in an array**
 
@@ -21,6 +23,8 @@
 -Initialize j from i+1 to size
 
 -if arr[i]==arr[j] return arr[i]
+
+</br>
 
 
 **Rotate array by one**
@@ -31,6 +35,8 @@
 
 -Place the last element on the first empty index
 
+</br>
+
 
 **Reverse an array**
 
@@ -40,12 +46,16 @@
 - 
 -Increment i, decrement j
 
+</br>
+
 
 **To move negative numbers to the starting of the array**
 
 -Initialize j=0
 
 -Traverse the array. If negative element is found, swap with arr[j] and increment j
+
+</br>
 
 
 **Maximum pair product**
@@ -55,7 +65,9 @@
 -Initialize a variable to initialize max product as 0 (max_prod)
 
 - If arr[i]*arr[j]>max product, max_prod=arr[i]*arr[j]
-- 
+
+</br>
+
 
 **Maximum contiguous subarray sum (kadane’s algo)**
 
@@ -68,6 +80,8 @@ Ref video: https://youtu.be/HCL4_bOd3-4
 
 -if curr_sum<0, curr_sum=0 (drop the sum altogether as it will reduce the overall sum)
 
+</br>
+
 
 **To find kth min and max element**
 
@@ -76,6 +90,8 @@ Ref video: https://youtu.be/HCL4_bOd3-4
 -For kth min, print arr[k-1] //kth element
 
 -For kth max, print arr[size-k]
+
+</br>
 
 
 **Minimize the heights of towers**
@@ -94,6 +110,8 @@ Ref video: https://youtu.be/Av7vSnPSCtw
 
 -result would be minimum of ans and ma-mi
 
+</br>
+
 
 **Binary search**
 
@@ -108,6 +126,8 @@ Ref video: https://youtu.be/Av7vSnPSCtw
 -if mid>key, end=mid-1
 
 -if mid>key, start=mid+1
+
+</br>
 
 
 
