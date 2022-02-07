@@ -149,3 +149,41 @@ Efficient soln:
 
 Ref video: https://youtu.be/HTG9JFmB03A - O(n)
 
+<br>
+
+**Selection sort- n^2**
+
+-find the minimum element in the unsorted array and swap it with the element in the beginning
+<br>
+
+**Bubble sort- n^2**
+
+- int j=1;
+    while(j<size){
+        for(int i=0;i<size-j;i++){
+            if(arr[i]>arr[i+1]){
+                int temp=arr[i];
+                arr[i]=arr[i+1];
+                arr[i+1]=arr[i];
+            }
+        }
+
+<br>
+
+**Insertion sort- n^2**
+
+- iterate i  from 1 to n; j=i-1
+- current=arr[i]
+- keep checking if arr[j]>current, move j one place forward
+- j- - till j>=0
+- place current in arr[j+1]
+- <br>
+
+**Max till i in an array- O(n)**
+
+-keep iterating over the array and checking the max among the elements
+-mx=max(mx,arr[i])
+<br>
+
+
+
