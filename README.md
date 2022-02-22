@@ -185,5 +185,16 @@ Ref video: https://youtu.be/HTG9JFmB03A - O(n)
 -mx=max(mx,arr[i])
 <br>
 
+<br>
+
+**Sum of all subarrays**
+
+-outer loop from i to size
+
+-inner loop from j to i
+
+-keep adding sum in inner loop
+
+
 
 
